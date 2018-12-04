@@ -4,8 +4,10 @@
 using namespace std;
 
 int main(int argc, char *argv[])
-{
-    for(int i=1; i <11; i++){cout<<i<<endl;}    
+{ 
+    int iContatore=0;
+    for(int i=0; i <10; i++){iContatore++;}
+    cout<<iContatore<<endl;   
     system("PAUSE");
     return EXIT_SUCCESS;
 }
